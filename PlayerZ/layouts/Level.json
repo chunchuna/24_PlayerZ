@@ -218,9 +218,62 @@
 							}
 						},
 						{
+							"type": "bed",
+							"properties": {
+								"scale": "200",
+								"z-elevation": 0,
+								"angle-x": -90,
+								"angle-y": 0,
+								"angle-z": 0,
+								"rotation-order": "xyz",
+								"gtlf-path": "bed.glb",
+								"debug": false,
+								"animation-blend": 0,
+								"instance-model": false,
+								"image-texture": false,
+								"x-scale": 1,
+								"y-scale": 1,
+								"z-scale": 1,
+								"wireframe": false,
+								"worker-animation": false,
+								"cpu-xform": false
+							},
+							"uid": 8,
+							"sid": 310824300674844,
+							"tags": "",
+							"instanceVariables": {},
+							"behaviors": {
+								"Solid": {
+									"properties": {
+										"enabled": true,
+										"tags": ""
+									}
+								}
+							},
+							"instanceFolderItem": {
+								"sid": 310824300674844,
+								"expanded": true
+							},
+							"world": {
+								"x": 7473.6086502603075,
+								"y": 8309.77943462121,
+								"width": 199.9999956555166,
+								"height": 99.88402674822464,
+								"originX": 0.5046506200152595,
+								"originY": 0.48958704636856526,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"zElevation": 48
+							}
+						},
+						{
 							"type": "prisoner3dobject",
 							"properties": {
-								"scale": "150",
+								"scale": "300",
 								"z-elevation": 0,
 								"angle-x": -90,
 								"angle-y": 0,
@@ -278,10 +331,10 @@
 							"world": {
 								"x": 7618,
 								"y": 8465,
-								"width": 29.591649711423088,
-								"height": 50.228894548885364,
-								"originX": 0.6547504980912957,
-								"originY": 0.48555657790033047,
+								"width": 59.183299422846176,
+								"height": 100.45778909776709,
+								"originX": 0.6547504980912804,
+								"originY": 0.48555657790032997,
 								"color": [
 									1,
 									1,
@@ -289,6 +342,59 @@
 									1
 								],
 								"zElevation": 71
+							}
+						},
+						{
+							"type": "American",
+							"properties": {
+								"scale": "200",
+								"z-elevation": 0,
+								"angle-x": -90,
+								"angle-y": 0,
+								"angle-z": 0,
+								"rotation-order": "xyz",
+								"gtlf-path": "American.glb",
+								"debug": false,
+								"animation-blend": 0,
+								"instance-model": false,
+								"image-texture": false,
+								"x-scale": 1,
+								"y-scale": 1,
+								"z-scale": 1,
+								"wireframe": false,
+								"worker-animation": false,
+								"cpu-xform": false
+							},
+							"uid": 7,
+							"sid": 983867722544689,
+							"tags": "",
+							"instanceVariables": {},
+							"behaviors": {
+								"Solid": {
+									"properties": {
+										"enabled": true,
+										"tags": ""
+									}
+								}
+							},
+							"instanceFolderItem": {
+								"sid": 983867722544689,
+								"expanded": true
+							},
+							"world": {
+								"x": 7735.913864377219,
+								"y": 8328.501069553122,
+								"width": 50.19837370759615,
+								"height": 95.68454959753944,
+								"originX": 0.5255960357935083,
+								"originY": 0.5154579531725597,
+								"color": [
+									1,
+									1,
+									1,
+									1
+								],
+								"zElevation": 90
 							}
 						}
 					],
@@ -707,6 +813,14 @@
 			},
 			{
 				"sid": 621705205419154,
+				"expanded": true
+			},
+			{
+				"sid": 983867722544689,
+				"expanded": true
+			},
+			{
+				"sid": 310824300674844,
 				"expanded": true
 			}
 		],

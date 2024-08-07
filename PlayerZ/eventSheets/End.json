@@ -6,6 +6,10 @@
 			"includeSheet": "Input"
 		},
 		{
+			"eventType": "include",
+			"includeSheet": "Cursor"
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "EndInit",

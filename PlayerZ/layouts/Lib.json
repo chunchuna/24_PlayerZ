@@ -90,6 +90,76 @@
 			"global": false
 		},
 		{
+			"name": "Cursor",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "Cursor",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Normal",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 10,
+					"sid": 590590796663748,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 590590796663748,
+						"expanded": true
+					},
+					"world": {
+						"x": 25.5216279577037,
+						"y": 26.57229063940825,
+						"width": 16,
+						"height": 16,
+						"originX": 0.500139690817657,
+						"originY": 0.5415704387990762,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 542429193816779,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
 			"name": "prisoner",
 			"overriden": 0,
 			"subLayers": [],
@@ -533,7 +603,14 @@
 					"sid": 886312219534004,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 886312219534004,
 						"expanded": true
@@ -579,7 +656,14 @@
 					"sid": 782633096891514,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 782633096891514,
 						"expanded": true
@@ -671,7 +755,14 @@
 					"sid": 752057335532348,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 752057335532348,
 						"expanded": true
@@ -770,7 +861,14 @@
 					"sid": 850476667011704,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 850476667011704,
 						"expanded": true
@@ -816,7 +914,14 @@
 					"sid": 437033963050215,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 437033963050215,
 						"expanded": true
@@ -862,7 +967,14 @@
 					"sid": 783686272855929,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"instanceFolderItem": {
 						"sid": 783686272855929,
 						"expanded": true
@@ -1109,6 +1221,10 @@
 			},
 			{
 				"sid": 246037151561967,
+				"expanded": true
+			},
+			{
+				"sid": 590590796663748,
 				"expanded": true
 			}
 		],

@@ -29,7 +29,7 @@
 			"eventType": "variable",
 			"name": "Camera_Z",
 			"type": "number",
-			"initialValue": "710",
+			"initialValue": "1010",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,

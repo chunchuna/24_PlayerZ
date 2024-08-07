@@ -1,6 +1,10 @@
 // Import any other script files here, e.g.:
 // import * as myModule from "./mymodule.js";
 import "./engine.js";
+import "./game/behavior.js";
+import "./game/level.js";
+import "./game/event.js";
+import "./game/fade.js";
 runOnStartup(async (runtime) => {
     // Code to run on the loading screen.
     // Note layouts, objects etc. are not yet available.

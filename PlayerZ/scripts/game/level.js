@@ -1,8 +1,6 @@
 import { ENGINE_MUST } from "../engine.js";
 import { ConfigExecutor } from "./event.js";
 import { Fade } from "./fade.js";
-import "./behavior.js";
-export var PrisonerMain; // player
 //-----------------------------------------------------------------------------
 // LevelInit
 //
@@ -20,6 +18,7 @@ ENGINE_MUST.LEVEL_INIT(() => {
 //
 // 
 // 
+export var PrisonerMain; // player
 ENGINE_MUST.LEVEL_INIT(() => {
     PrisonerMain = ENGINE_MUST.CORE.objects.prisonerMain.getFirstInstance();
 });
@@ -70,8 +69,6 @@ ENGINE_MUST.LEVEL_INIT(async () => {
                     ENGINE_MUST.CORE.callFunction("Dialogue_SkipSequence");
                 }
             }
-        }
-        else {
         }
     });
 });

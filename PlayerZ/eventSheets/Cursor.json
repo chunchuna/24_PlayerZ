@@ -1,0 +1,46 @@
+{
+	"name": "Cursor",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Cursor",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 729685756715568
+						}
+					],
+					"actions": [
+						{
+							"id": "set-cursor-style",
+							"objectClass": "Mouse",
+							"sid": 175199057243373,
+							"disabled": true,
+							"parameters": {
+								"cursor-style": "none"
+							}
+						},
+						{
+							"id": "set-cursor-from-sprite",
+							"objectClass": "Mouse",
+							"sid": 638554900164173,
+							"parameters": {
+								"sprite": "Cursor"
+							}
+						}
+					],
+					"sid": 906135709188872
+				}
+			],
+			"sid": 945906809035506
+		}
+	],
+	"sid": 638459937380859
+}

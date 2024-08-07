@@ -1,10 +1,7 @@
 import { ENGINE_MUST } from "../engine.js";
-
 import { PrisonerMain } from "./level.js";
 import { ConfigExecutor } from "./event.js";
 import { StartDialogue } from "./level.js";
-
-
 
 //-----------------------------------------------------------------------------
 // TouchBehaviorZone

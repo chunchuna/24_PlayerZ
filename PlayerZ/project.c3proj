@@ -65,6 +65,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "NinePatch",
 			"name": "9-patch",
 			"author": "Scirra",
@@ -187,7 +194,8 @@
 					"Anykey",
 					"EndTitle",
 					"FunctionOPT",
-					"SpriteFont2"
+					"SpriteFont2",
+					"Cursor"
 				],
 				"subfolders": [],
 				"name": "Ui"
@@ -222,7 +230,8 @@
 					"Tunnelentrance",
 					"wall",
 					"wash",
-					"GroundGrid"
+					"GroundGrid",
+					"Mouse"
 				],
 				"subfolders": [],
 				"name": "Obj"
@@ -259,7 +268,8 @@
 			"Input",
 			"End",
 			"Menu",
-			"Load"
+			"Load",
+			"Cursor"
 		],
 		"subfolders": []
 	},

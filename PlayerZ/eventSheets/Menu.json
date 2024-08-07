@@ -10,6 +10,10 @@
 			"includeSheet": "Load"
 		},
 		{
+			"eventType": "include",
+			"includeSheet": "Cursor"
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "MenuInit",

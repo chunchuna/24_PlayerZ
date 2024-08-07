@@ -1,11 +1,9 @@
 import { ENGINE_MUST } from "../engine.js";
 import { ConfigExecutor } from "./event.js";
 import { Fade } from "./fade.js"
-import "./behavior.js"
 
 
 
-export var PrisonerMain: InstanceType.prisonerMain; // player
 
 //-----------------------------------------------------------------------------
 // LevelInit
@@ -18,7 +16,6 @@ ENGINE_MUST.init(() => {
     Fade.Fade_black_to_empty(2, 2);
 })
 
-
 ENGINE_MUST.LEVEL_INIT(() => {
 
     console.log("Level Init Now")
@@ -30,6 +27,7 @@ ENGINE_MUST.LEVEL_INIT(() => {
 //
 // 
 // 
+export var PrisonerMain: InstanceType.prisonerMain; // player
 
 ENGINE_MUST.LEVEL_INIT(() => {
     PrisonerMain = ENGINE_MUST.CORE.objects.prisonerMain.getFirstInstance()!;
@@ -100,8 +98,6 @@ ENGINE_MUST.LEVEL_INIT(async () => {
                 }
 
             }
-        } else {
-
         }
     })
 
