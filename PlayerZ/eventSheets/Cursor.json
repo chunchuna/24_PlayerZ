@@ -22,7 +22,6 @@
 							"id": "set-cursor-style",
 							"objectClass": "Mouse",
 							"sid": 175199057243373,
-							"disabled": true,
 							"parameters": {
 								"cursor-style": "none"
 							}

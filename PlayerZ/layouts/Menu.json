@@ -1070,6 +1070,41 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Cursor",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Normal",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 12,
+					"sid": 153894004941201,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 153894004941201,
+						"expanded": true
+					},
+					"world": {
+						"x": -12,
+						"y": -51,
+						"width": 4,
+						"height": 4,
+						"originX": 0.500139690817657,
+						"originY": 0.5415704387990762,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 389467139209252,
@@ -1114,6 +1149,10 @@
 			},
 			{
 				"sid": 669980876816120,
+				"expanded": true
+			},
+			{
+				"sid": 153894004941201,
 				"expanded": true
 			}
 		],
