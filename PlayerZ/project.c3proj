@@ -114,13 +114,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Car",
-			"name": "Car",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direction",
 			"author": "Scirra",
@@ -164,40 +157,7 @@
 	],
 	"uniqueId": "7pekmmpcw4g",
 	"objectTypes": {
-		"items": [
-			"ground",
-			"wall",
-			"prisonerMain",
-			"prisoner3dobject",
-			"CameraMain",
-			"Keyboard",
-			"bed",
-			"guard",
-			"toilet",
-			"wash",
-			"IntractBehaviorZone",
-			"EventHandler",
-			"board",
-			"camera_cover",
-			"guardbutfake",
-			"FunctionWindow",
-			"FunctionOPT",
-			"FadeSprite",
-			"TouchBehaviorZone",
-			"Strawground",
-			"Object3D",
-			"Suitcase",
-			"Tunnelentrance",
-			"Airvents",
-			"American",
-			"NudePolice",
-			"Prisonerother",
-			"EndingBackGround",
-			"EndTitle",
-			"Anykey",
-			"MenuBackground",
-			"SpriteFont2"
-		],
+		"items": [],
 		"subfolders": [
 			{
 				"items": [
@@ -221,6 +181,51 @@
 				],
 				"subfolders": [],
 				"name": "Dilogue"
+			},
+			{
+				"items": [
+					"Anykey",
+					"EndTitle",
+					"FunctionOPT",
+					"SpriteFont2"
+				],
+				"subfolders": [],
+				"name": "Ui"
+			},
+			{
+				"items": [
+					"Airvents",
+					"American",
+					"bed",
+					"board",
+					"camera_cover",
+					"CameraMain",
+					"EndingBackGround",
+					"EventHandler",
+					"FadeSprite",
+					"FunctionWindow",
+					"ground",
+					"guard",
+					"guardbutfake",
+					"IntractBehaviorZone",
+					"Keyboard",
+					"MenuBackground",
+					"NudePolice",
+					"Object3D",
+					"prisoner3dobject",
+					"prisonerMain",
+					"Prisonerother",
+					"Strawground",
+					"Suitcase",
+					"toilet",
+					"TouchBehaviorZone",
+					"Tunnelentrance",
+					"wall",
+					"wash",
+					"GroundGrid"
+				],
+				"subfolders": [],
+				"name": "Obj"
 			}
 		]
 	},
@@ -312,6 +317,14 @@
 							"script-info": {
 								"purpose": "none"
 							}
+						},
+						{
+							"name": "behavior.js",
+							"type": "application/javascript",
+							"sid": 356046908064213,
+							"script-info": {
+								"purpose": "none"
+							}
 						}
 					],
 					"subfolders": [],
@@ -329,7 +342,7 @@
 				{
 					"items": [
 						{
-							"name": "text type.webm",
+							"name": "sfx_type.webm",
 							"type": "audio/webm; codecs=opus",
 							"sid": 918855860773794,
 							"file-info": {
@@ -337,7 +350,7 @@
 							}
 						},
 						{
-							"name": "updown.webm",
+							"name": "sfx_choice_up_down.webm",
 							"type": "audio/webm; codecs=opus",
 							"sid": 648219900559269,
 							"file-info": {

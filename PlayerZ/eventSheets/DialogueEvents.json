@@ -7005,7 +7005,7 @@
 									"objectClass": "Audio",
 									"sid": 922115657016397,
 									"parameters": {
-										"audio-file": "text type",
+										"audio-file": "sfx_type",
 										"loop": "not-looping",
 										"volume": "-15",
 										"stereo-pan": "0",

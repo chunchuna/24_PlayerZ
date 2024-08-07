@@ -16,7 +16,7 @@
 		{
 			"eventType": "group",
 			"disabled": false,
-			"title": "prisoner",
+			"title": "me",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
@@ -1126,7 +1126,7 @@
 									"objectClass": "Audio",
 									"sid": 823828097342765,
 									"parameters": {
-										"audio-file": "updown",
+										"audio-file": "sfx_choice_up_down",
 										"loop": "not-looping",
 										"volume": "-10",
 										"stereo-pan": "0",
@@ -1167,7 +1167,7 @@
 									"objectClass": "Audio",
 									"sid": 582925472844847,
 									"parameters": {
-										"audio-file": "updown",
+										"audio-file": "sfx_choice_up_down",
 										"loop": "not-looping",
 										"volume": "-10",
 										"stereo-pan": "0",

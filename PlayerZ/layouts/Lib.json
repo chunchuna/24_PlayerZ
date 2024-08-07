@@ -119,20 +119,6 @@
 								"default-controls": true,
 								"enabled": true
 							}
-						},
-						"车": {
-							"properties": {
-								"max-speed": 350,
-								"acceleration": 200,
-								"deceleration": 300,
-								"steer-speed": 225,
-								"drift-recover": 185,
-								"friction": 0.4,
-								"turn-while-stopped": false,
-								"set-angle": true,
-								"default-controls": true,
-								"enabled": true
-							}
 						}
 					},
 					"sceneGraphData": {
@@ -265,7 +251,7 @@
 						"width": 29.591649711423088,
 						"height": 50.22889454888377,
 						"originX": 0.6547504980912842,
-						"originY": 0.5,
+						"originY": 0.48555657790032886,
 						"color": [
 							1,
 							1,

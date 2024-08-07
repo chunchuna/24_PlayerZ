@@ -9,11 +9,6 @@
 			"behaviorId": "EightDir",
 			"name": "8Direction",
 			"sid": 580026484869140
-		},
-		{
-			"behaviorId": "Car",
-			"name": "车",
-			"sid": 801869990036345
 		}
 	],
 	"effectTypes": [],
