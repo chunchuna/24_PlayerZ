@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 39900,
-	"name": "24_escape",
+	"name": "24_PlayerZ",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
