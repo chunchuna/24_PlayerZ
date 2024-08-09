@@ -142,6 +142,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Pin",
 			"name": "Pin",
 			"author": "Scirra",
@@ -242,9 +249,10 @@
 	"containers": [],
 	"families": {
 		"items": [
-			"f_cube",
-			"f_cube2",
-			"f_3d"
+			"f_3d_solid",
+			"f_3d_solid2",
+			"f_3d",
+			"f_ground"
 		],
 		"subfolders": []
 	},

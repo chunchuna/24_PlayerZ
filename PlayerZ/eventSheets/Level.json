@@ -27,6 +27,89 @@
 				{
 					"eventType": "group",
 					"disabled": false,
+					"title": "PointMove",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-object-clicked",
+									"objectClass": "Mouse",
+									"sid": 143643350717091,
+									"parameters": {
+										"mouse-button": "left",
+										"click-type": "clicked",
+										"object-clicked": "f_ground"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "find-path",
+									"objectClass": "prisonerMain",
+									"sid": 313321511148153,
+									"behaviorType": "Pathfinding",
+									"parameters": {
+										"x": "Mouse.X",
+										"y": "Mouse.Y"
+									}
+								}
+							],
+							"sid": 116779576130467
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-path-found",
+									"objectClass": "prisonerMain",
+									"sid": 275577783101796,
+									"behaviorType": "Pathfinding"
+								}
+							],
+							"actions": [
+								{
+									"id": "move-along-path",
+									"objectClass": "prisonerMain",
+									"sid": 825837394115842,
+									"behaviorType": "Pathfinding"
+								}
+							],
+							"sid": 609982645948557
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-moving-along-path",
+									"objectClass": "prisonerMain",
+									"sid": 977355646991172,
+									"behaviorType": "Pathfinding"
+								}
+							],
+							"actions": [
+								{
+									"id": "set-rotation",
+									"objectClass": "prisoner3dobject",
+									"sid": 465446090336577,
+									"parameters": {
+										"x": "-90",
+										"y": "0",
+										"z": "prisonerMain.Angle",
+										"rotation-order": "zxy"
+									}
+								}
+							],
+							"sid": 634668311273955
+						}
+					],
+					"sid": 741996451509626
+				},
+				{
+					"eventType": "group",
+					"disabled": true,
 					"title": "BaseMove",
 					"description": "",
 					"isActiveOnStart": true,
@@ -77,7 +160,8 @@
 									}
 								}
 							],
-							"sid": 491891685501439
+							"sid": 491891685501439,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -125,7 +209,8 @@
 									}
 								}
 							],
-							"sid": 913709481926929
+							"sid": 913709481926929,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -173,7 +258,8 @@
 									}
 								}
 							],
-							"sid": 196340537069686
+							"sid": 196340537069686,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -221,7 +307,8 @@
 									}
 								}
 							],
-							"sid": 352468165332662
+							"sid": 352468165332662,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -245,7 +332,8 @@
 									}
 								}
 							],
-							"sid": 845694295995962
+							"sid": 845694295995962,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -269,7 +357,8 @@
 									}
 								}
 							],
-							"sid": 542402797041951
+							"sid": 542402797041951,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -293,7 +382,8 @@
 									}
 								}
 							],
-							"sid": 613062437248695
+							"sid": 613062437248695,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -317,7 +407,8 @@
 									}
 								}
 							],
-							"sid": 524255169555130
+							"sid": 524255169555130,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -342,7 +433,8 @@
 									}
 								}
 							],
-							"sid": 436610322489293
+							"sid": 436610322489293,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -367,7 +459,8 @@
 									}
 								}
 							],
-							"sid": 693765549846517
+							"sid": 693765549846517,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -392,7 +485,8 @@
 									}
 								}
 							],
-							"sid": 528363111182309
+							"sid": 528363111182309,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -417,7 +511,8 @@
 									}
 								}
 							],
-							"sid": 152544911678782
+							"sid": 152544911678782,
+							"disabled": true
 						}
 					],
 					"sid": 217978786704537

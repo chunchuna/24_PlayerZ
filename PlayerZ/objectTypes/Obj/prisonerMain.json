@@ -9,6 +9,11 @@
 			"behaviorId": "EightDir",
 			"name": "8Direction",
 			"sid": 580026484869140
+		},
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 218772144183612
 		}
 	],
 	"effectTypes": [],
@@ -20,7 +25,7 @@
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
-						"originY": 1,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,

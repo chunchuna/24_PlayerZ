@@ -1,0 +1,12 @@
+{
+	"name": "f_ground",
+	"plugin-id": "TiledBg",
+	"sid": 220373417426903,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"GroundGrid",
+		"ground"
+	]
+}
