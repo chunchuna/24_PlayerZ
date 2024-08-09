@@ -59,8 +59,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 524.3881703377626,
-						"y": 410.50648120739856,
+						"x": 13,
+						"y": 576,
 						"width": 269.7045905376758,
 						"height": 178.5761766725136,
 						"originX": 0,
@@ -361,8 +361,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 652,
-						"y": 495,
+						"x": 141,
+						"y": 660,
 						"width": 272.72727272727286,
 						"height": 176.36363636363637,
 						"originX": 0.5,
@@ -382,7 +382,7 @@
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "serif",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -445,8 +445,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 533.3088901906651,
-						"y": 421.519316203314,
+						"x": 22,
+						"y": 587,
 						"width": 251.22600915238036,
 						"height": 30,
 						"originX": 0,
@@ -466,7 +466,7 @@
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "serif",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -529,8 +529,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 533.3088901906651,
-						"y": 454.3039620608374,
+						"x": 22,
+						"y": 619,
 						"width": 251.22600915238036,
 						"height": 30,
 						"originX": 0,
@@ -550,7 +550,7 @@
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "serif",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -613,8 +613,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 533.3088901906651,
-						"y": 485.7225810076307,
+						"x": 22,
+						"y": 651,
 						"width": 251.22600915238036,
 						"height": 30,
 						"originX": 0,
@@ -634,7 +634,7 @@
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "serif",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -697,8 +697,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 533.3088901906651,
-						"y": 515.7751730436938,
+						"x": 22,
+						"y": 681,
 						"width": 251.22600915238036,
 						"height": 30,
 						"originX": 0,
@@ -718,7 +718,7 @@
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "serif",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -781,8 +781,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 533.3088901906651,
-						"y": 547.1937919904871,
+						"x": 22,
+						"y": 712,
 						"width": 251.22600915238036,
 						"height": 30,
 						"originX": 0,
@@ -865,7 +865,7 @@
 							1,
 							1,
 							1,
-							1
+							0.5
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -894,8 +894,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 767.8019689178398,
-						"y": 462.6849201085435,
+						"x": 4.533360257214326,
+						"y": 695.7841737293545,
 						"width": 259.55586154528737,
 						"height": 69.4466544962504,
 						"originX": 0,
@@ -929,8 +929,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 805.942693277212,
-						"y": 497.0450809166475,
+						"x": 42.67408461658658,
+						"y": 730.1443345374586,
 						"width": 47.95173738155715,
 						"height": 49.819986889929524,
 						"originX": 0.5,
@@ -964,8 +964,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 858.8739621489484,
-						"y": 497.17932084507544,
+						"x": 95.60535348832298,
+						"y": 730.2785744658864,
 						"width": 51.26746201004442,
 						"height": 49.980872743243246,
 						"originX": 0.5,
