@@ -158,7 +158,7 @@
 										"max-speed": 200,
 										"acceleration": 1000,
 										"deceleration": 2000,
-										"rotate-speed": 400,
+										"rotate-speed": 1000,
 										"rotate-object": true,
 										"diagonals": true,
 										"direct-movement": "to-destination",
@@ -587,7 +587,7 @@
 								"cpu-xform": false
 							},
 							"uid": 3,
-							"sid": 396598208614070,
+							"sid": 910584054175451,
 							"tags": "",
 							"instanceVariables": {},
 							"behaviors": {},
@@ -620,7 +620,7 @@
 								}
 							},
 							"instanceFolderItem": {
-								"sid": 396598208614070,
+								"sid": 910584054175451,
 								"expanded": true
 							},
 							"world": {
@@ -905,6 +905,40 @@
 					"subLayers": [],
 					"instances": [],
 					"sid": 277834803804951,
+					"effectTypes": [],
+					"isInitiallyVisible": true,
+					"isInitiallyInteractive": true,
+					"isHTMLElementsLayer": false,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"backgroundColor": [
+						0.3686274509803922,
+						0.3686274509803922,
+						0.3686274509803922,
+						1
+					],
+					"isTransparent": true,
+					"parallaxX": 0,
+					"parallaxY": 0,
+					"scaleRate": 1,
+					"forceOwnTexture": false,
+					"renderingMode": "2d",
+					"drawOrder": "z-order",
+					"useRenderCells": false,
+					"blendMode": "normal",
+					"zElevation": 0,
+					"global": false
+				},
+				{
+					"name": "StatusUI",
+					"overriden": 1,
+					"subLayers": [],
+					"instances": [],
+					"sid": 670326880055438,
 					"effectTypes": [],
 					"isInitiallyVisible": true,
 					"isInitiallyInteractive": true,

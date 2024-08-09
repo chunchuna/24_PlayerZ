@@ -1,17 +1,9 @@
 {
-	"name": "WindowFrame",
+	"name": "InventoryGrid",
 	"plugin-id": "NinePatch",
-	"sid": 463758093098818,
+	"sid": 866744225003157,
 	"isGlobal": false,
-	"instanceVariables": [
-		{
-			"name": "ID",
-			"type": "string",
-			"desc": "",
-			"show": true,
-			"sid": 942901230988034
-		}
-	],
+	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
@@ -22,7 +14,7 @@
 		"originalSource": "",
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
-		"imageSpriteId": 8318655,
+		"imageSpriteId": 7846607,
 		"useCollisionPoly": true,
 		"tag": ""
 	}

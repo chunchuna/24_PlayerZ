@@ -171,7 +171,12 @@
 	],
 	"uniqueId": "7pekmmpcw4g",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"UIPanel",
+			"UIPanelInventory",
+			"InventoryGrid",
+			"CharacterGrid"
+		],
 		"subfolders": [
 			{
 				"items": [
