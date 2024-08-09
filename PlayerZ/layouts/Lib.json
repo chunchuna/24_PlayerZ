@@ -167,14 +167,14 @@
 				{
 					"type": "prisonerMain",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 14,
-					"sid": 777552094551624,
+					"uid": 13,
+					"sid": 734843864895932,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
@@ -198,8 +198,8 @@
 								"max-speed": 200,
 								"acceleration": 1000,
 								"deceleration": 2000,
-								"rotate-speed": 135,
-								"rotate-object": false,
+								"rotate-speed": 400,
+								"rotate-object": true,
 								"diagonals": true,
 								"direct-movement": "to-destination",
 								"enabled": true
@@ -209,8 +209,8 @@
 					"template": {
 						"mode": "template",
 						"templateName": "mob",
-						"sourceTemplateName": "",
-						"replicaHierarchyInSyncWithTemplate": false,
+						"sourceTemplateName": "mob",
+						"replicaHierarchyInSyncWithTemplate": true,
 						"templatePropagateHierarchyChanges": true,
 						"replicaIgnoreTemplateHierarchyChanges": false,
 						"components": [
@@ -222,7 +222,7 @@
 										"state": [
 											[
 												"initially-visible",
-												true
+												false
 											],
 											[
 												"initial-animation",
@@ -318,11 +318,11 @@
 											],
 											[
 												"rotate-speed",
-												true
+												false
 											],
 											[
 												"rotate-object",
-												true
+												false
 											],
 											[
 												"diagonals",
@@ -364,11 +364,11 @@
 											],
 											[
 												"w",
-												true
+												false
 											],
 											[
 												"h",
-												true
+												false
 											],
 											[
 												"a",
@@ -384,11 +384,11 @@
 											],
 											[
 												"sx",
-												true
+												false
 											],
 											[
 												"sy",
-												true
+												false
 											],
 											[
 												"bm",
@@ -435,10 +435,10 @@
 					},
 					"sceneGraphData": {
 						"parent-uid": null,
-						"uid": 14,
+						"uid": 13,
 						"children": [
 							{
-								"uid": 15,
+								"uid": 16,
 								"flags": {
 									"x": true,
 									"y": true,
@@ -479,14 +479,14 @@
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 777552094551624,
+						"sid": 734843864895932,
 						"expanded": true
 					},
 					"world": {
-						"x": 499.74731158594204,
-						"y": 398.96541611046814,
-						"width": 44,
-						"height": 48,
+						"x": 646,
+						"y": 222,
+						"width": 97.07046011207512,
+						"height": 87.44426089410808,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -502,7 +502,7 @@
 				{
 					"type": "prisoner3dobject",
 					"properties": {
-						"scale": "300",
+						"scale": "200",
 						"z-elevation": 0,
 						"angle-x": -90,
 						"angle-y": 0,
@@ -520,14 +520,14 @@
 						"worker-animation": false,
 						"cpu-xform": false
 					},
-					"uid": 15,
-					"sid": 677652333674655,
+					"uid": 16,
+					"sid": 801046463076430,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"sceneGraphData": {
-						"parent-uid": 14,
-						"uid": 15,
+						"parent-uid": 13,
+						"uid": 16,
 						"flags": {
 							"x": true,
 							"y": true,
@@ -554,23 +554,23 @@
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 677652333674655,
+						"sid": 801046463076430,
 						"expanded": true
 					},
 					"world": {
-						"x": 502.1173734726508,
-						"y": 364.1031263700024,
-						"width": 59.18329942284612,
-						"height": 100.45778909776755,
-						"originX": 0.6547504980912838,
-						"originY": 0.48555657790032886,
+						"x": 652,
+						"y": 218,
+						"width": 39.455532948564155,
+						"height": 66.97185939851167,
+						"originX": 0.6547504980912836,
+						"originY": 0.4855565779003288,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"zElevation": 146
+						"zElevation": 103
 					}
 				}
 			],
@@ -1466,7 +1466,7 @@
 				"expanded": true
 			},
 			{
-				"sid": 777552094551624,
+				"sid": 734843864895932,
 				"expanded": true
 			}
 		],
