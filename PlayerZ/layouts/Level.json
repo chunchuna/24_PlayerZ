@@ -50,6 +50,51 @@
 						"angle": 0,
 						"zElevation": -1
 					}
+				},
+				{
+					"type": "ground",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 21,
+					"sid": 298782491295047,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 298782491295047,
+						"expanded": true
+					},
+					"world": {
+						"x": 4569,
+						"y": 5555,
+						"width": 5358,
+						"height": 4470,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 437805487748162,
@@ -773,8 +818,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 7816.5225999084,
-						"y": 8490.866166221129,
+						"x": 7237,
+						"y": 8362,
 						"width": 90.5732572724828,
 						"height": 89.07261722711519,
 						"originX": 0.5,
@@ -815,8 +860,8 @@
 						"expanded": true
 					},
 					"world": {
-						"x": 7486.96539589484,
-						"y": 8685.568920471795,
+						"x": 7236,
+						"y": 8564,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
@@ -974,7 +1019,7 @@
 					"instances": [],
 					"sid": 188595699187182,
 					"effectTypes": [],
-					"isInitiallyVisible": true,
+					"isInitiallyVisible": false,
 					"isInitiallyInteractive": true,
 					"isHTMLElementsLayer": false,
 					"color": [
@@ -1093,10 +1138,10 @@
 					"world": {
 						"x": -579,
 						"y": -545,
-						"width": 16,
-						"height": 16,
-						"originX": 0.500139690817657,
-						"originY": 0.5415704387990762,
+						"width": 41,
+						"height": 40,
+						"originX": 0.513503445706836,
+						"originY": 0.6995381062355654,
 						"color": [
 							1,
 							1,
@@ -1170,6 +1215,10 @@
 			},
 			{
 				"sid": 868189807870948,
+				"expanded": true
+			},
+			{
+				"sid": 298782491295047,
 				"expanded": true
 			}
 		],

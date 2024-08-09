@@ -1,20 +1,20 @@
 {
-	"name": "UIPanelInventory",
+	"name": "UIPanel",
 	"plugin-id": "NinePatch",
-	"sid": 922288285889241,
+	"sid": 569009176572392,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
-		"width": 48,
-		"height": 48,
+		"width": 69,
+		"height": 69,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
-		"imageSpriteId": 5069691,
+		"imageSpriteId": 5130644,
 		"useCollisionPoly": true,
 		"tag": ""
 	}

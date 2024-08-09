@@ -1,20 +1,20 @@
 {
-	"name": "CharacterGrid",
+	"name": "UIPanelInventory",
 	"plugin-id": "NinePatch",
-	"sid": 185675504212148,
+	"sid": 922288285889241,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
-		"width": 48,
-		"height": 48,
+		"width": 69,
+		"height": 69,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
-		"imageSpriteId": 360909,
+		"imageSpriteId": 6928161,
 		"useCollisionPoly": true,
 		"tag": ""
 	}

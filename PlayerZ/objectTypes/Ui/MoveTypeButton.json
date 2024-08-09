@@ -1,0 +1,50 @@
+{
+	"name": "MoveTypeButton",
+	"plugin-id": "Sprite",
+	"sid": 621868375316253,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 68,
+						"height": 68,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9393891,
+						"collisionPoly": {
+							"points": [
+								0.029411764705882353,
+								0.014705882352941176,
+								0.9852941176470589,
+								0.029411764705882353,
+								0.9705882352941176,
+								0.9852941176470589,
+								0.014705882352941176,
+								0.9705882352941176
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 647577933550902,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

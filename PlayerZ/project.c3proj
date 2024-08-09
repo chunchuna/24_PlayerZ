@@ -171,12 +171,7 @@
 	],
 	"uniqueId": "7pekmmpcw4g",
 	"objectTypes": {
-		"items": [
-			"UIPanel",
-			"UIPanelInventory",
-			"InventoryGrid",
-			"CharacterGrid"
-		],
+		"items": [],
 		"subfolders": [
 			{
 				"items": [
@@ -207,7 +202,13 @@
 					"EndTitle",
 					"FunctionOPT",
 					"SpriteFont2",
-					"Cursor"
+					"Cursor",
+					"UIPanel",
+					"UIPanelInventory",
+					"CharacterGrid",
+					"InventoryGrid",
+					"MoveTypeButton",
+					"DetailsTypeButton"
 				],
 				"subfolders": [],
 				"name": "Ui"
@@ -664,7 +665,7 @@
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},
-	"viewportWidth": 800,
-	"viewportHeight": 600,
+	"viewportWidth": 1024,
+	"viewportHeight": 768,
 	"firstLayout": "Menu"
 }
